@@ -1,0 +1,12 @@
+@import "/src/assets/styles/colors";
+@import "/src/assets/styles/fonts";
+
+.featured-shelf-section {
+  padding: 100px 100px 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .featured-shelf-section {
+    padding: 50px 20px 0;
+  }
+}

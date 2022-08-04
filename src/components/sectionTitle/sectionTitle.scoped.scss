@@ -1,0 +1,15 @@
+@import "/src/assets/styles/colors";
+@import "/src/assets/styles/fonts";
+
+.section-title {
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 30px;
+  text-align: center;
+  color: $primary;
+  margin-bottom: 20px;
+}
+
+.bolder {
+  font-weight: 700;
+}

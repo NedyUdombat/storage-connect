@@ -1,0 +1,22 @@
+@import "/src/assets/styles/colors";
+@import "/src/assets/styles/fonts";
+
+.section-subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: $primary;
+  width: 60%;
+}
+
+@media only screen and (max-width: 768px) {
+  .section-subtitle {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: $primary;
+    width: auto;
+  }
+}

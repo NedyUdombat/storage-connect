@@ -1,0 +1,66 @@
+@import "/src/assets/styles/colors";
+@import "/src/assets/styles/fonts";
+
+.item-card {
+  width: 399px;
+  min-width: 280px;
+  background: #f6f8fd;
+  border: 1px solid #f9f9f9;
+  border-radius: 10px;
+  padding: 18px 22px 24px;
+
+  .card-body {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 24px;
+
+    .list-group {
+      .list-group-item {
+        color: rgba(0, 1, 3, 0.7);
+        padding: 0;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        border: none;
+        background: transparent;
+
+        p {
+          margin-bottom: 0;
+          font-size: 18px;
+          line-height: 20px;
+        }
+
+        .list-group-item-key {
+          font-weight: 500;
+          margin-left: 8px;
+          margin-right: 15px;
+        }
+        .list-group-item-value {
+          font-weight: 400;
+        }
+
+        .card-title {
+          font-weight: 600;
+          font-size: 25px;
+          line-height: 20px;
+          margin-bottom: 0;
+          margin-left: 8px;
+        }
+      }
+    }
+  }
+
+  .footer-btn {
+    background-color: $main;
+    color: $white;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    width: 100%;
+    max-width: 277px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 24px;
+  }
+}
